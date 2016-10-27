@@ -1,0 +1,6 @@
+{
+  "name": "Spfx-promoted-links",
+  "tagline": "SharePoint Framework Promoted Links Client-Side Web Part",
+  "body": "## spfx-promoted-links\r\n\r\nThis is an example client-side web part built with the SharePoint Framework, React, and the Office UI Fabric.  The web part can be added to a modern SharePoint page to display items from a promoted links list in SharePoint.\r\n\r\n### Building the code\r\n\r\n```bash\r\ngit clone https://github.com/Constellation-Solutions/spfx-promoted-links.git\r\nnpm i\r\nnpm i -g gulp\r\ngulp serve\r\n```\r\n\r\nThis package produces the following:\r\n\r\n* lib/* commonjs components - this allows this package to be reused from other packages.\r\n* dist/* - a single bundle containing the components used for uploading to a cdn pointing a registered Sharepoint webpart library to.\r\n* example/* a test page that hosts all components in this package.\r\n\r\n### Build options\r\n\r\ngulp nuke - TODO\r\ngulp test - TODO\r\ngulp watch - TODO\r\ngulp build - TODO\r\ngulp deploy - TODO\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
